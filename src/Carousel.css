@@ -4,12 +4,17 @@
   justify-content: center;
 }
 
-.Carousel-main > i {
+.Carousel-main>i {
   cursor: pointer;
   margin: 10px;
   color: #aaa;
 }
 
-.Carousel-main > i:hover {
+.Carousel-main>i.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Carousel-main>i:hover {
   color: black;
 }
